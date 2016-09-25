@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription" severity="ignore" />
+    <issue id="HardcodedText" severity="ignore" />
+    <issue id="RtlHardcoded">
+        <ignore path="res/layout/listview_item.xml" />
+        <ignore path="res/layout/view_spinner.xml" />
+    </issue>
+    <issue id="RtlSymmetry" severity="ignore" />
+    <issue id="TextFields" severity="ignore" />
+</lint>
